@@ -1,0 +1,33 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.000000000000455" scrolly="20" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="40.38982844090856" scrolly="69.37581361527305" scale="0.6715938569729647">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="`m)OR#=1#{m3=%(I#tZ~" inline="false" x="-10" y="-10">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Fwb0K~/g(Weik-_BE[t[">
+          <field name="FIELDNAME">chrome_metal_3</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="+)/#O,0[Oi(Mmm^pI{jy">
+          <value name="VALUE2">
+            <shadow type="materialList" id="s|De%Si_Zl9CgkSJ)8qs">
+              <field name="FIELDNAME">chrome_black</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="O7a.aRuDuk%1WSCojWw4">
+              <field name="FIELDNAME">table_legs</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="745.2" viewport-y="37" viewport-w="508.8" viewport-h="320.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

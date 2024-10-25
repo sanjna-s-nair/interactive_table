@@ -1,0 +1,418 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="48.73866388920089" scrolly="203.1812964539631" scale="0.9675299831141102">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="gn,m7C`/v5_qx[a@]STx" x="-10" y="-210">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="CommonTab" active="false" scrollx="20.56049075049191" scrolly="111.32660400747875" scale="0.6548623765145808">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="`m)OR#=1#{m3=%(I#tZ~" inline="false" x="-10" y="-170">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Fwb0K~/g(Weik-_BE[t[">
+          <field name="FIELDNAME">black_sphere</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="+)/#O,0[Oi(Mmm^pI{jy">
+          <value name="VALUE2">
+            <shadow type="materialList" id="s|De%Si_Zl9CgkSJ)8qs">
+              <field name="FIELDNAME">black</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="O7a.aRuDuk%1WSCojWw4">
+              <field name="FIELDNAME">table_legs</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="7_/{!2Ht$0YG`mYqI{fz" inline="false" x="-10" y="-50">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="C`NR5UeZ]h#{)E8HQpRX">
+          <field name="FIELDNAME">white_sphere</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="gO7naZm|B))f0-S7hqJJ">
+          <value name="VALUE2">
+            <shadow type="materialList" id="/P3y)X9uBD_@`io}q;Mn">
+              <field name="FIELDNAME">white</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="!p)|gtE9Y^B]60HAZWNY">
+              <field name="FIELDNAME">table_legs</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="XVo75kH/bzTAOmZG|@_o" inline="false" x="-10" y="70">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="32]BCn@D_bY1g]eXKBCx">
+          <field name="FIELDNAME">silver_sphee</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="G2E/Ox^Iy7N-iJ|]m9Zv">
+          <value name="VALUE2">
+            <shadow type="materialList" id="W6w-cdq/bNVLnOoP6wUw">
+              <field name="FIELDNAME">chrome</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="0YA:!t`y/[H=}oXstKsI">
+              <field name="FIELDNAME">table_legs</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="n%:DAM5l0UZ.yAzyvt|t" inline="false" x="-10" y="210">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="(AZ+!/eeM6D(?+Q]P?%*">
+          <field name="FIELDNAME">Slab01</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="replaceTexture" id="QGa]/G%}Jfn4}{vqMfez">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+          <field name="OLD_TEX_NAME">wood</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="kR]]*X|x%e#nv3do$U0G">
+              <field name="FIELDNAME">wood_material_00</field>
+            </shadow>
+          </value>
+          <value name="NEW_TEX_URL">
+            <shadow type="text" id="AnT(/`QNS9yOL_M}9TbG">
+              <field name="TEXT">./wood_basecolor_1.jpg</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="kk#yh*aU[b?TRV]l/oZ5" inline="false" x="-10" y="350">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ge.aX/FNgYQt?pXo1Jqi">
+          <field name="FIELDNAME">Slab02</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="replaceTexture" id=".1i%,bnRNKAcC,TdpeJ!">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+          <field name="OLD_TEX_NAME">wood</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="7GKKf[V~xo`j!KS`gBDb">
+              <field name="FIELDNAME">wood_material_00</field>
+            </shadow>
+          </value>
+          <value name="NEW_TEX_URL">
+            <shadow type="text" id="7oqW-%9-$D+tKRoTrzxe">
+              <field name="TEXT">./wood_basecolor_2.jpg</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="y#!u@oc.E3.3txX)P7_g" inline="false" x="-10" y="490">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="k[V!wM4H[@d5!!eWFT=o">
+          <field name="FIELDNAME">Slab03</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="replaceTexture" id="m;O;=r-/.hWc^_q_mP=t">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+          <field name="OLD_TEX_NAME">wood</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="ZhwGNJ+gC^5?UN1/L/V0">
+              <field name="FIELDNAME">wood_material_00</field>
+            </shadow>
+          </value>
+          <value name="NEW_TEX_URL">
+            <shadow type="text" id=")R]#P3|ge7w[lY-k[.[O">
+              <field name="TEXT">./wood_basecolor_3.jpg</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <tab name="animation" type="CommonTab" active="true" scrollx="-16.2094886202035" scrolly="67.92948186019657" scale="0.6768393620286867">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id=",u^q6*2f9o-`Zg+j.F^h">status 1</variable>
+      <variable id="_+sR@L]I*V9X]vYe%*2T">status 2</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="loSVQ/kwu*fB{##/I+tY" x="70" y="-110">
+      <field name="VAR" id=",u^q6*2f9o-`Zg+j.F^h">status 1</field>
+      <value name="VALUE">
+        <block type="text" id="9{01~)B_?0ri^9iYLu|9">
+          <field name="TEXT">closed</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="iz_$@~pSahTu^-)nZl|;" inline="false" x="70" y="-50">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="e9gg?PfYF*7Xqjn]o_%X">
+          <field name="FIELDNAME">drawer_1.001</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="BW}iiko8}MNUfB-9jRW_">
+          <mutation elseif="1"></mutation>
+          <value name="IF0">
+            <block type="logic_compare" id="Un+O1D6/${AAL.L$p.e^">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="47p87nELcP-r0Nr7#eHp">
+                  <field name="VAR" id=",u^q6*2f9o-`Zg+j.F^h">status 1</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="b+PeehsAtDe5}]8H^|TG">
+                  <field name="TEXT">closed</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="playAnimationAdv" id="t^doT5b8W[[pr*.u9;4k">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id=")C0E{T)|A=dsN.=}vgL^">
+                  <field name="FIELDNAME">drawer_1.001</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="vd^/rN+e0N`e#*a.aOb^">
+                  <field name="VAR" id=",u^q6*2f9o-`Zg+j.F^h">status 1</field>
+                  <value name="VALUE">
+                    <block type="text" id="*9qeNoXiaBq?C~M,2/w/">
+                      <field name="TEXT">open</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF1">
+            <block type="logic_compare" id="=L?9v1X82V.7hufO^Jzi">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="w5=qz=R[lD4h4vJPs1B6">
+                  <field name="VAR" id=",u^q6*2f9o-`Zg+j.F^h">status 1</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="rzQG{1wNmF5E6ytjdw@b">
+                  <field name="TEXT">open</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO1">
+            <block type="playAnimationAdv" id="D8tIjFSe*e)o_.ohWES*">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="wa%{[5Q5![3MKb(S6);1">
+                  <field name="FIELDNAME">drawer_1.001</field>
+                </shadow>
+              </value>
+              <value name="FROM">
+                <shadow type="math_number" id="k,$_*l|aa*fona~n$*_/">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="P6GhLNZ.Vwo+RXKY@*7h">
+                  <field name="NUM">30</field>
+                </shadow>
+              </value>
+              <value name="SPEED">
+                <shadow type="math_number" id="B?seV;bIf`12?Ymbh|US">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="|;5bcYs,(4QEx.%b*?kH">
+                  <field name="VAR" id=",u^q6*2f9o-`Zg+j.F^h">status 1</field>
+                  <value name="VALUE">
+                    <block type="text" id="l!A.ZQYg[;VX*KxNFrTJ">
+                      <field name="TEXT">open</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="Z%^-`k;YM1=$NP{Pv29^" x="70" y="310">
+      <field name="VAR" id="_+sR@L]I*V9X]vYe%*2T">status 2</field>
+      <value name="VALUE">
+        <block type="text" id="6i45F57{PBvIY:?~_)=k">
+          <field name="TEXT">closed</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="C_qyxq`EJ[C:M:mspLYL" inline="false" x="90" y="390">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="~c!*p-X6@+5i$Z@|NO%^">
+          <field name="FIELDNAME">drawer_2</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="*;cS37?B4_YtkdILZtPo">
+          <mutation elseif="1"></mutation>
+          <value name="IF0">
+            <block type="logic_compare" id="^W#_y@1!wV^FgqL0Sk/J">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="r=e$zR?j.bQSR~RfUUJW">
+                  <field name="VAR" id="_+sR@L]I*V9X]vYe%*2T">status 2</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="dmYF*CHAOzXT3^B@3j~h">
+                  <field name="TEXT">closed</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="playAnimationAdv" id="J`wU7Hb=ct2*EO+L1-_1">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="b.P6upm;g``X:nhj*1`v">
+                  <field name="FIELDNAME">drawer_2</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="D=#A/Bl.u.IwaSUM+,i0">
+                  <field name="VAR" id="_+sR@L]I*V9X]vYe%*2T">status 2</field>
+                  <value name="VALUE">
+                    <block type="text" id="+ENf)[RhW)q^vcWcTm9!">
+                      <field name="TEXT">open</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF1">
+            <block type="logic_compare" id="RGi:;q@GTzJa0ZUeargb">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="{Y[b:Sl1=|HmRaRA*eCT">
+                  <field name="VAR" id="_+sR@L]I*V9X]vYe%*2T">status 2</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="H7Yj@7PuaCjf~E`AOsp~">
+                  <field name="TEXT">open</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO1">
+            <block type="playAnimationAdv" id="`O{^z^r{PaHz/~%c,3n#">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="Vsx=q@#jwDWU5m~1SCpT">
+                  <field name="FIELDNAME">drawer_2</field>
+                </shadow>
+              </value>
+              <value name="FROM">
+                <shadow type="math_number" id="TBk|V.oRPYkJ2`^Qfzu!">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="i{e)Y$km2|=Bbhl}1Ie]">
+                  <field name="NUM">30</field>
+                </shadow>
+              </value>
+              <value name="SPEED">
+                <shadow type="math_number" id="UKKpo?FP}(+mjDvR[3|J">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id=",I)/:6U0;On}z22HH%Qd">
+                  <field name="VAR" id="_+sR@L]I*V9X]vYe%*2T">status 2</field>
+                  <value name="VALUE">
+                    <block type="text" id="g-`eLKajPAQQu^Y5fDX[">
+                      <field name="TEXT">open</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="745.2" viewport-y="37" viewport-w="508.8" viewport-h="320.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
